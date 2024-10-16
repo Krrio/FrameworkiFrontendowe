@@ -1,3 +1,5 @@
+// link do repozytorium: https://github.com/Krrio/FrameworkiFrontendowe
+
 const fs = require('fs');
 const path = require('path');
 
@@ -10,7 +12,7 @@ function generateId() {
 // FUNCTION TO GENERATE RANDOM RELEASE DATE (RANGE FROM 1900 TO 2023)
 
 function generateRandomDate() {
-    const year = Math.floor(Math.random() * (2023 - 1900 + 1)) + 1900;
+    const year = Math.floor(Math.random() * (2023 - 2000 + 1)) + 2000;
     const month = Math.floor(Math.random() * 12) + 1;
     const day = Math.floor(Math.random() * 28) + 1;
     return `${year}-${month < 10 ? '0' + month : month}-${day < 10 ? '0' + day : day}`;

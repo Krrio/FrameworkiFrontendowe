@@ -1,25 +1,30 @@
+// src/App.jsx
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-// Importing the generated module data
-import books from './data/module-data.js';
-import RootLayout from './layouts/RootLayout.jsx';
-import {Route, Routes} from 'react-router-dom'
-import Lab1Pages from './pages/Lab1Pages.jsx';
-import BooksPage from './pages/BooksPage.jsx';
-import NotFoundPage from './pages/NotFoundPage.jsx';
+import RootLayout from './layouts/RootLayout';
+import { Route, Routes } from 'react-router-dom';
+import Lab1Pages from './pages/Lab1Pages';
+import BooksPage from './pages/BooksPage';
+import Home from './pages/Home';
+import NotFoundPage from './pages/NotFoundPage';
+import Lab2 from './pages/Lab2';
+import Lab2Main from './pages/Lab2Main';
 
-
+const menuItems = [
+  { id: 1, label: "Home", url: "/", urlPattern: "/", element: <Home /> },
+  { id: 2, label: "Laboratorium 1", url: "/lab1", urlPattern: "/lab1", element: <Lab1Pages /> },
+  { id: 3, label: "Laboratorium 2", url: "/lab2", urlPattern: "/lab2/:id", element: <Lab2 /> },
+];
 
 function App() {
   return (
-    <RootLayout>
+    <RootLayout items={menuItems}>
       <Routes>
-        <Route path='/lab1' element={<Lab1Pages />}/>
-        <Route path='/lab2' element={<h1>Laboratorium2</h1>}/>
-        <Route path='/books/:id' element={<BooksPage />}/>
-        <Route path='*' element={<NotFoundPage />}/>
-
+        {menuItems.map((item) => (
+          <Route key={item.id} path={item.urlPattern} element={item.element} />
+        ))}
+        <Route path="/lab2" element={<Lab2Main />} />
+        <Route path="*" element={<NotFoundPage />} />
       </Routes>
     </RootLayout>
   );

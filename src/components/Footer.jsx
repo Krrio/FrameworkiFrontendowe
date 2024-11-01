@@ -6,12 +6,12 @@ const Footer = () => {
     <footer className="bg-light text-center py-3">
       <Container>
         <img
-          src="/path/to/university-logo.png" 
+          src="/logos/logo.png" 
           alt="University Logo"
           width="100"
           className="mb-2"
         />
-        <p>Created by Kacper Jozwik | Email: kacper@wsei.edu.pl</p>
+        <p>Created by Kacper Jóźwik| Email: kacper.jozwik@microsoft.wsei.edu.pl</p>
       </Container>
     </footer>
   );

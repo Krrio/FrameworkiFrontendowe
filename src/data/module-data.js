@@ -1,62 +1,62 @@
 module.exports = [
   {
-    "id": 67742,
+    "id": 55402,
     "title": "Harry Potter i Insygnia Śmierci",
-    "author": "F. Scott Fitzgerald",
-    "releaseDate": "2004-10-14"
-  },
-  {
-    "id": 76573,
-    "title": "Biedny Ojciec Bogaty Ojciec",
-    "author": "George Orwell",
-    "releaseDate": "2010-07-06"
-  },
-  {
-    "id": 99776,
-    "title": "Schronisko, które spowijał mrok",
     "author": "Mark Twain",
-    "releaseDate": "2000-04-27"
+    "releaseDate": "2003-05-17"
   },
   {
-    "id": 65735,
-    "title": "Kane: Bogowie w mroku",
-    "author": "Jane Austen",
-    "releaseDate": "2000-11-05"
+    "id": 64113,
+    "title": "Biedny Ojciec Bogaty Ojciec",
+    "author": "Harper Lee",
+    "releaseDate": "2008-11-25"
   },
   {
-    "id": 117,
-    "title": "Oblitus",
-    "author": "Jane Austen",
-    "releaseDate": "2013-04-10"
-  },
-  {
-    "id": 86952,
-    "title": "I Wanna Fall. Dark Side. Die.",
-    "author": "J.K. Rowling",
-    "releaseDate": "2016-09-01"
-  },
-  {
-    "id": 4901,
-    "title": "Domek nad potokiem",
-    "author": "F. Scott Fitzgerald",
-    "releaseDate": "2015-03-06"
-  },
-  {
-    "id": 17913,
-    "title": "Kamienny wojownik",
-    "author": "J.K. Rowling",
-    "releaseDate": "2005-10-28"
-  },
-  {
-    "id": 41302,
-    "title": "Sekret",
-    "author": "Jane Austen",
-    "releaseDate": "2022-10-08"
-  },
-  {
-    "id": 4909,
-    "title": "Becoming",
+    "id": 56624,
+    "title": "Schronisko, które spowijał mrok",
     "author": "Herman Melville",
-    "releaseDate": "2005-02-04"
+    "releaseDate": "2003-12-27"
+  },
+  {
+    "id": 70625,
+    "title": "Kane: Bogowie w mroku",
+    "author": "Mark Twain",
+    "releaseDate": "2001-02-19"
+  },
+  {
+    "id": 95360,
+    "title": "Oblitus",
+    "author": "F. Scott Fitzgerald",
+    "releaseDate": "2013-04-20"
+  },
+  {
+    "id": 23498,
+    "title": "I Wanna Fall. Dark Side. Die.",
+    "author": "Herman Melville",
+    "releaseDate": "2019-06-20"
+  },
+  {
+    "id": 2638,
+    "title": "Domek nad potokiem",
+    "author": "Herman Melville",
+    "releaseDate": "2007-02-06"
+  },
+  {
+    "id": 75095,
+    "title": "Kamienny wojownik",
+    "author": "F. Scott Fitzgerald",
+    "releaseDate": "2001-01-24"
+  },
+  {
+    "id": 47164,
+    "title": "Sekret",
+    "author": "J.K. Rowling",
+    "releaseDate": "2001-05-10"
+  },
+  {
+    "id": 38668,
+    "title": "Becoming",
+    "author": "J.K. Rowling",
+    "releaseDate": "2014-10-02"
   }
 ];

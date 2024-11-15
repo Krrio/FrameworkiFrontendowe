@@ -1,62 +1,72 @@
 module.exports = [
   {
-    "id": 55402,
+    "id": 86309,
     "title": "Harry Potter i Insygnia Śmierci",
-    "author": "Mark Twain",
-    "releaseDate": "2003-05-17"
+    "author": "Herman Melville",
+    "releaseDate": "2013-05-17",
+    "rating": 6
   },
   {
-    "id": 64113,
+    "id": 7610,
     "title": "Biedny Ojciec Bogaty Ojciec",
-    "author": "Harper Lee",
-    "releaseDate": "2008-11-25"
+    "author": "F. Scott Fitzgerald",
+    "releaseDate": "2018-05-21",
+    "rating": 3
   },
   {
-    "id": 56624,
+    "id": 63655,
     "title": "Schronisko, które spowijał mrok",
     "author": "Herman Melville",
-    "releaseDate": "2003-12-27"
+    "releaseDate": "2023-03-02",
+    "rating": 7
   },
   {
-    "id": 70625,
+    "id": 68671,
     "title": "Kane: Bogowie w mroku",
-    "author": "Mark Twain",
-    "releaseDate": "2001-02-19"
-  },
-  {
-    "id": 95360,
-    "title": "Oblitus",
     "author": "F. Scott Fitzgerald",
-    "releaseDate": "2013-04-20"
+    "releaseDate": "2007-01-28",
+    "rating": 1
   },
   {
-    "id": 23498,
+    "id": 80442,
+    "title": "Oblitus",
+    "author": "J.K. Rowling",
+    "releaseDate": "2022-10-04",
+    "rating": 6
+  },
+  {
+    "id": 11145,
     "title": "I Wanna Fall. Dark Side. Die.",
     "author": "Herman Melville",
-    "releaseDate": "2019-06-20"
+    "releaseDate": "2005-10-24",
+    "rating": 0
   },
   {
-    "id": 2638,
+    "id": 73339,
     "title": "Domek nad potokiem",
-    "author": "Herman Melville",
-    "releaseDate": "2007-02-06"
+    "author": "Harper Lee",
+    "releaseDate": "2017-09-06",
+    "rating": 0
   },
   {
-    "id": 75095,
+    "id": 56502,
     "title": "Kamienny wojownik",
     "author": "F. Scott Fitzgerald",
-    "releaseDate": "2001-01-24"
+    "releaseDate": "2000-06-25",
+    "rating": 5
   },
   {
-    "id": 47164,
+    "id": 79250,
     "title": "Sekret",
-    "author": "J.K. Rowling",
-    "releaseDate": "2001-05-10"
+    "author": "Herman Melville",
+    "releaseDate": "2016-07-23",
+    "rating": 7
   },
   {
-    "id": 38668,
+    "id": 19263,
     "title": "Becoming",
-    "author": "J.K. Rowling",
-    "releaseDate": "2014-10-02"
+    "author": "F. Scott Fitzgerald",
+    "releaseDate": "2018-03-28",
+    "rating": 6
   }
 ];

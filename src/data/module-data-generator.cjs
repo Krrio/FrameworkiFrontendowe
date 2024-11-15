@@ -30,6 +30,10 @@ function getRandomAuthor() {
     return authors[Math.floor(Math.random() * authors.length)];
 }
 
+function generateRandomRating() {
+    return Math.floor(Math.random() * 11);
+}
+
 // READING THE FILE books.txt
 fs.readFile(path.join(__dirname, '../../books.txt'), 'utf8', (err, data) => {
     if (err) {
@@ -45,7 +49,8 @@ fs.readFile(path.join(__dirname, '../../books.txt'), 'utf8', (err, data) => {
         id: generateId(),
         title: title.trim(),
         author: getRandomAuthor(),
-        releaseDate: generateRandomDate()
+        releaseDate: generateRandomDate(),
+        rating: generateRandomRating() 
     }));
 
     // WRITING TO THE FILE module-data.js

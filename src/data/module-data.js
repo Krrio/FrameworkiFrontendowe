@@ -1,72 +1,72 @@
 module.exports = [
   {
-    "id": 86309,
+    "id": 95455,
     "title": "Harry Potter i Insygnia Śmierci",
-    "author": "Herman Melville",
-    "releaseDate": "2013-05-17",
-    "rating": 6
-  },
-  {
-    "id": 7610,
-    "title": "Biedny Ojciec Bogaty Ojciec",
-    "author": "F. Scott Fitzgerald",
-    "releaseDate": "2018-05-21",
-    "rating": 3
-  },
-  {
-    "id": 63655,
-    "title": "Schronisko, które spowijał mrok",
-    "author": "Herman Melville",
-    "releaseDate": "2023-03-02",
-    "rating": 7
-  },
-  {
-    "id": 68671,
-    "title": "Kane: Bogowie w mroku",
-    "author": "F. Scott Fitzgerald",
-    "releaseDate": "2007-01-28",
+    "author": "Jane Austen",
+    "releaseDate": "2011-01-06",
     "rating": 1
   },
   {
-    "id": 80442,
-    "title": "Oblitus",
-    "author": "J.K. Rowling",
-    "releaseDate": "2022-10-04",
-    "rating": 6
+    "id": 71551,
+    "title": "Biedny Ojciec Bogaty Ojciec",
+    "author": "George Orwell",
+    "releaseDate": "2016-02-09",
+    "rating": 9
   },
   {
-    "id": 11145,
-    "title": "I Wanna Fall. Dark Side. Die.",
-    "author": "Herman Melville",
-    "releaseDate": "2005-10-24",
-    "rating": 0
-  },
-  {
-    "id": 73339,
-    "title": "Domek nad potokiem",
+    "id": 86006,
+    "title": "Schronisko, które spowijał mrok",
     "author": "Harper Lee",
-    "releaseDate": "2017-09-06",
-    "rating": 0
-  },
-  {
-    "id": 56502,
-    "title": "Kamienny wojownik",
-    "author": "F. Scott Fitzgerald",
-    "releaseDate": "2000-06-25",
-    "rating": 5
-  },
-  {
-    "id": 79250,
-    "title": "Sekret",
-    "author": "Herman Melville",
-    "releaseDate": "2016-07-23",
+    "releaseDate": "2021-09-11",
     "rating": 7
   },
   {
-    "id": 19263,
+    "id": 54048,
+    "title": "Kane: Bogowie w mroku",
+    "author": "F. Scott Fitzgerald",
+    "releaseDate": "2002-01-14",
+    "rating": 2
+  },
+  {
+    "id": 53618,
+    "title": "Oblitus",
+    "author": "Herman Melville",
+    "releaseDate": "2003-10-07",
+    "rating": 6
+  },
+  {
+    "id": 78885,
+    "title": "I Wanna Fall. Dark Side. Die.",
+    "author": "J.K. Rowling",
+    "releaseDate": "2007-08-23",
+    "rating": 8
+  },
+  {
+    "id": 57727,
+    "title": "Domek nad potokiem",
+    "author": "F. Scott Fitzgerald",
+    "releaseDate": "2020-05-01",
+    "rating": 7
+  },
+  {
+    "id": 43034,
+    "title": "Kamienny wojownik",
+    "author": "Harper Lee",
+    "releaseDate": "2004-09-09",
+    "rating": 10
+  },
+  {
+    "id": 99969,
+    "title": "Sekret",
+    "author": "Jane Austen",
+    "releaseDate": "2003-07-13",
+    "rating": 7
+  },
+  {
+    "id": 72185,
     "title": "Becoming",
     "author": "F. Scott Fitzgerald",
-    "releaseDate": "2018-03-28",
-    "rating": 6
+    "releaseDate": "2022-10-26",
+    "rating": 5
   }
 ];

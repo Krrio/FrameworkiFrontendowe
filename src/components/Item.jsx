@@ -1,21 +1,23 @@
-import React, { useState } from 'react';
+import React, { useState, useContext } from 'react';
 import { Card, Button } from 'react-bootstrap';
 import RatingBar from './RatingBar';
+import AppContext from '../data/AppContext'; // Import AppContext
 
-const Item = ({ name, id, rating = 0, dispatch }) => {
+const Item = ({ name, id, rating = 0 }) => {
   const [localRating, setLocalRating] = useState(rating);
+  const { dispatch } = useContext(AppContext); // Pobierz dispatch z kontekstu
 
   const handleEdit = () => {
     dispatch({
       type: "edit",
-      id: id
+      id: id,
     });
   };
 
   const handleDelete = () => {
     dispatch({
       type: "delete",
-      id: id
+      id: id,
     });
   };
 
@@ -25,7 +27,7 @@ const Item = ({ name, id, rating = 0, dispatch }) => {
     dispatch({
       type: "rate",
       id: id,
-      rating: newRating
+      rating: newRating,
     });
   };
 
@@ -34,9 +36,15 @@ const Item = ({ name, id, rating = 0, dispatch }) => {
       <Card.Body>
         <Card.Title>{name}</Card.Title>
         <RatingBar rate={localRating} />
-        <Button variant="primary" onClick={handleEdit} className="me-2 mt-2 ml-2">Edit</Button>
-        <Button variant="danger" onClick={handleDelete} className="me-2 mt-2 ml-2">Delete</Button>
-        <Button variant="success" onClick={handleRate} className="me-2 mt-2 ml-2">Rate</Button>
+        <Button variant="primary" onClick={handleEdit} className="me-2 mt-2 ml-2">
+          Edit
+        </Button>
+        <Button variant="danger" onClick={handleDelete} className="me-2 mt-2 ml-2">
+          Delete
+        </Button>
+        <Button variant="success" onClick={handleRate} className="me-2 mt-2 ml-2">
+          Rate
+        </Button>
       </Card.Body>
     </Card>
   );
